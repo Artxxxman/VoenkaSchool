@@ -1,0 +1,243 @@
+<html>
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+
+        .categorytitle{
+            font-weight: bold;
+            font-size: 35px;
+        }
+        .categorysblock{
+            height: 100%;
+            background-color: #949494;
+            border-radius: 0px 0px 15px 0px;
+            box-shadow:
+                    1px 0px rgb(94,93,92), 1px 1px rgb(99,98,97),
+                    2px 1px rgb(91,90,89), 2px 2px rgb(98,97,96),
+                    3px 2px rgb(88,87,86), 3px 3px rgb(97,96,95),
+                    4px 3px rgb(85,84,83), 4px 4px rgb(96,95,94)
+        }
+        .cashpanel{
+            text-align: right;
+            font-size: 30px;
+            height: 8%;
+            background-color: #949494;
+            box-shadow:
+                    1px 0px rgb(94,93,92), 1px 1px rgb(99,98,97),
+                    2px 1px rgb(91,90,89), 2px 2px rgb(98,97,96),
+                    3px 2px rgb(88,87,86), 3px 3px rgb(97,96,95),
+                    4px 3px rgb(85,84,83), 4px 4px rgb(96,95,94)
+        }
+        a:hover	{
+            cursor: pointer;
+            text-decoration: none;
+            color: #080808; }
+        #menu {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            height: 100%;
+        }
+        #menu li {
+            background-color: #949494;
+            color: #fff;
+            padding: 5px;
+            text-decoration: none;
+            font-size: 30px;
+            display: block;
+        }
+        #menu a {
+            background-color: #949494;
+            color: #fff;
+            padding: 5px;
+            text-decoration: none;
+            font-size: 30px;
+            border-left: 5px solid #33ADFF;
+            display: block;
+        }
+        #menu a:hover {
+            background-color: #949494;
+            border-left: 5px solid #3333FF;
+        }
+
+        #cash p{
+            background-color: #949494;
+            color: #fff;
+            padding: 5px;
+            font-size: 30px;
+            display: block;
+        }
+        #cash  a {
+            background-color: #949494;
+            color: #fff;
+            padding: 5px;
+            font-size: 30px;
+            border-right: 5px solid #33ADFF;
+        }
+        #cash  a:hover {
+            background-color: #949494;
+            border-right: 5px solid #3333FF;
+        }
+        #page{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2 categorysblock" >
+                <ul id="menu">
+                    <li class="categorytitle">Категории </li>
+                    <li><a href="#">Смартфоны </a> </li>
+                    <li><a href="#"> Ноутбуки</a> </li>
+                    <li><a href="#"> Планшеты</a> </li>
+                </ul>
+            </div>
+            <div class="col-sm-10">
+                <div class="row cashpanel">
+                    <div class="col-sm-9">
+
+                    </div>
+                    <div class="col-sm-3">
+                        <p id="cash"><a>корзина[сумма]</a></p>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="row">
+                                <h1 class="text-center">
+                                изображение
+                                изображение
+                                изображение
+                                </h1>
+                            </div>
+                            <div class="row">
+                                <form role="form" class="form-inline" >
+                                    <ul class="pager">
+                                        <li class="previous"><button type="submit" class="btn">←</button></li>
+                                        <li><input  type="text" name="search"></li>
+                                        <li class="next"><button type="submit" class="btn">→</button></li>
+                                        <li><button type="submit" class="btn">+</button></li>
+                                    </ul>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="row">
+                                <h1 class="text-center">
+                                    изображение
+                                    изображение
+                                    изображение
+                                </h1>
+                            </div>
+                            <div class="row">
+                                <form role="form" class="form-inline" >
+                                    <ul class="pager">
+                                        <li class="previous"><button type="submit" class="btn">←</button></li>
+                                        <li><input  type="text" name="search"></li>
+                                        <li class="next"><button type="submit" class="btn">→</button></li>
+                                        <li><button type="submit" class="btn">+</button></li>
+                                    </ul>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="row">
+                                <h1 class="text-center">
+                                    изображение
+                                    изображение
+                                    изображение
+                                </h1>
+                            </div>
+                            <div class="row">
+                                <form role="form" class="form-inline" >
+                                    <ul class="pager">
+                                        <li class="previous"><button type="submit" class="btn">←</button></li>
+                                        <li><input  type="text" name="search"></li>
+                                        <li class="next"><button type="submit" class="btn">→</button></li>
+                                        <li><button type="submit" class="btn">+</button></li>
+                                    </ul>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="row">
+                                    <h1 class="text-center">
+                                        изображение
+                                        изображение
+                                        изображение
+                                    </h1>
+                                </div>
+                                <div class="row">
+                                    <form role="form" class="form-inline" >
+                                        <ul class="pager">
+                                            <li class="previous"><button type="submit" class="btn">←</button></li>
+                                            <li><input  type="text" name="search"></li>
+                                            <li class="next"><button type="submit" class="btn">→</button></li>
+                                            <li><button type="submit" class="btn">+</button></li>
+                                        </ul>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="row">
+                                    <h1 class="text-center">
+                                        изображение
+                                        изображение
+                                        изображение
+                                    </h1>
+                                </div>
+                                <div class="row">
+                                    <form role="form" class="form-inline" >
+                                        <ul class="pager">
+                                            <li class="previous"><button type="submit" class="btn">←</button></li>
+                                            <li><input  type="text" name="search"></li>
+                                            <li class="next"><button type="submit" class="btn">→</button></li>
+                                            <li><button type="submit" class="btn">+</button></li>
+                                        </ul>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="row">
+                                    <h1 class="text-center">
+                                        изображение
+                                        изображение
+                                        изображение
+                                    </h1>
+                                </div>
+                                <div class="row">
+                                    <form role="form" class="form-inline" >
+                                        <ul class="pager">
+                                            <li class="previous"><button type="submit" class="btn">←</button></li>
+                                            <li><input  type="text" name="search"></li>
+                                            <li class="next"><button type="submit" class="btn">→</button></li>
+                                            <li><button type="submit" class="btn">+</button></li>
+                                        </ul>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul class="pager" id="page">
+                            <li class="previous"><a>← Предыдущая</a></li>
+                            <li class="next"><a>Следующая →</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
